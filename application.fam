@@ -1,0 +1,16 @@
+App(
+    appid="counter",
+    name="Counter",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="counter",
+    requires=[
+        "gui",
+    ],
+    fap_category="Tools",
+    fap_icon="icons/counter_icon.png",
+    fap_icon_assets="icons",
+    fap_author="@YouSysAdmin",
+    fap_weburl="https://github.com/YouSysAdmin/fz-counter",
+    fap_version="0.1",
+    fap_description="Simple full-screen counter",
+)
